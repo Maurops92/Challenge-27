@@ -9,7 +9,7 @@
 let golpes = [];
 let dañoTotal = 0;
 
-for(i=0; i<11; i++){
+for(i=0; i<10; i++){
     let daño = Math.floor(Math.random()*1000+1000);
     golpes.push(daño)
     dañoTotal+= daño
